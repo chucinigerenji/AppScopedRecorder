@@ -1,0 +1,26 @@
+# 构建产物
+out/
+*.apk.idsig
+
+# 签名密钥（切勿提交）
+*.keystore
+*.jks
+keystore/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# 临时
+*.tmp
+*.log
+
+# 构建脚本在根目录产出的 APK（正式产物放 dist/）
+/*.apk
+
+# 验证器的构建产物
+tools/probeapp/mediaprobe.apk
+tools/probeapp/out/
